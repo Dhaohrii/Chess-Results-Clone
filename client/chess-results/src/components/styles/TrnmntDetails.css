@@ -1,0 +1,41 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles for the tournament card */
+  .tournament-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the tournament name */
+  .tournament-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the tournament details */
+  .tournament-details {
+    font-size: 0.9rem;
+  }
+  
+  /* Styling for each detail line */
+  .tournament-details p {
+    margin-bottom: 8px;
+  }
+  
+  /* Strong tags for labels */
+  .tournament-details strong {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #333;
+  }
+  
